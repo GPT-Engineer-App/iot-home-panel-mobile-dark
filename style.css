@@ -1,0 +1,18 @@
+/* Dark theme */
+.dark {
+  background-color: #1a202c;
+  color: #f7fafc;
+}
+
+.dark header {
+  background-color: #2d3748;
+}
+
+.dark #theme-toggle {
+  background-color: #f7fafc;
+  color: #2d3748;
+}
+
+.dark main > div {
+  background-color: #2d3748;
+}

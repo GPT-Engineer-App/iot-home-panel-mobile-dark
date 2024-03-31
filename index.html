@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IoT Home Panel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="bg-blue-500 text-white p-4 flex justify-between items-center">
+      <h1 class="text-2xl">My IoT Home</h1>
+      <button id="theme-toggle" class="bg-white text-blue-500 px-4 py-2 rounded-full">
+        <i class="fas fa-moon"></i>
+      </button>
+    </header>
+
+    <main class="p-4 grid grid-cols-2 gap-4">
+      <div class="bg-white p-4 rounded shadow text-center">
+        <i class="fas fa-lightbulb text-4xl mb-2"></i>
+        <h2>Living Room Light</h2>
+        <button class="bg-blue-500 text-white w-full py-2 rounded mt-2">ON</button>
+      </div>
+      <div class="bg-white p-4 rounded shadow text-center">
+        <i class="fas fa-temperature-high text-4xl mb-2"></i>
+        <h2>Thermostat</h2>
+        <span class="text-4xl">70°</span>
+      </div>
+      <div class="bg-white p-4 rounded shadow text-center">
+        <i class="fas fa-door-closed text-4xl mb-2"></i>
+        <h2>Front Door</h2>
+        <button class="bg-blue-500 text-white w-full py-2 rounded mt-2">LOCK</button>
+      </div>
+      <div class="bg-white p-4 rounded shadow text-center">
+        <i class="fas fa-video text-4xl mb-2"></i>
+        <h2>Security Camera</h2>
+        <button class="bg-blue-500 text-white w-full py-2 rounded mt-2">VIEW</button>
+      </div>
+    </main>
+
+    <footer class="p-4 text-center">My IoT Home &copy; 2023</footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
